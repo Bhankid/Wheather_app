@@ -32,7 +32,7 @@ body {
   outline: 0;
   background: hsla(120, 1%, 77%, 0.824);
   color: #ffffff;
-  padding: 10px 25px;
+  padding: 8px 25px;
   height: 50px;
   border-radius: 30px;
   flex: 1;
@@ -67,12 +67,12 @@ body {
   width: 50px;
   height: 50px;
   cursor: pointer;
-  transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
+  transition: background-color 0.5s ease-in-out, transform 0.5s ease-in-out;
 }
 
 .search button:hover {
   background-color: hsla(120, 1%, 77%, 0.9);
-  transform: scale(1.1);
+  transform: scale(1.2);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
